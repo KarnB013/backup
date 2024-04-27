@@ -1,6 +1,8 @@
 # Backup
 A shell script that takes system backups at regular intervals
 
+It also keeps a backup log (sample included) in same directory as shell script which tracks if a backup was created or not (in case no files were created/modified)
+
 To run the backup in background, use _./lcbackup &_
 
 Step 1 : On execution, the script will take a complete backup of all files in home directory and will store it in ~/home/backup/cbw24
